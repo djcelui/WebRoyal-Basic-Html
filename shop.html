@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda - RoyalServers</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">RoyalServers</a>
+      <ul class="nav__list">
+        <li><a href="index.html#quienes-somos" class="nav__link">Quiénes Somos</a></li>
+        <li><a href="index.html#juegos" class="nav__link">Juegos</a></li>
+        <li><a href="index.html#creadores" class="nav__link">Creadores</a></li>
+        <li><a href="index.html#testimonios" class="nav__link">Testimonios</a></li>
+        <li><a href="shop.html" class="nav__link nav__link--active">Shop</a></li>
+      </ul>
+      <a href="https://dsc.gg/royalserver" target="_blank" class="btn btn--primary nav__btn">Únete a Discord</a>
+    </nav>
+  </header>
+
+  <section class="section container">
+    <h2 class="section__title">Tienda de Artículos</h2>
+    <div class="shop__grid">
+      <!-- Artículo 1 -->
+      <div class="shop-card">
+        <img src="img/minecraft_pickaxe.png" alt="Pico de Diamante" class="shop-card__img">
+        <h3 class="shop-card__title">Pico de Diamante (Minecraft)</h3>
+        <p>¡Consigue el mejor pico para tus aventuras!</p>
+        <span class="shop-card__price">$2.99 USD</span>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="ARTICULO1ID">
+          <button type="submit" class="btn btn--primary">Comprar con PayPal</button>
+        </form>
+      </div>
+      <!-- Artículo 2 -->
+      <div class="shop-card">
+        <img src="img/valorant_skin.png" alt="Skin Valorant" class="shop-card__img">
+        <h3 class="shop-card__title">Skin Exclusiva (Valorant)</h3>
+        <p>Destaca en la partida con esta skin única.</p>
+        <span class="shop-card__price">$4.99 USD</span>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="ARTICULO2ID">
+          <button type="submit" class="btn btn--primary">Comprar con PayPal</button>
+        </form>
+      </div>
+      <!-- Artículo 3 -->
+      <div class="shop-card">
+        <img src="img/cs2_case.png" alt="Caja CS2" class="shop-card__img">
+        <h3 class="shop-card__title">Caja Sorpresa (CS2)</h3>
+        <p>¿Qué skin te tocará? ¡Descúbrelo ahora!</p>
+        <span class="shop-card__price">$1.99 USD</span>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="ARTICULO3ID">
+          <button type="submit" class="btn btn--primary">Comprar con PayPal</button>
+        </form>
+      </div>
+      <!-- Artículo 4 -->
+      <div class="shop-card">
+        <img src="img/rust_hatchet.png" alt="Hacha Rust" class="shop-card__img">
+        <h3 class="shop-card__title">Hacha de Guerra (Rust)</h3>
+        <p>Perfecta para sobrevivir y dominar en Rust.</p>
+        <span class="shop-card__price">$3.49 USD</span>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="ARTICULO4ID">
+          <button type="submit" class="btn btn--primary">Comprar con PayPal</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__socials">
+        <a href="#" class="footer__social-link"><i class="fa-brands fa-twitch"></i></a>
+        <a href="#" class="footer__social-link"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="footer__social-link"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <p>&copy; 2025 RoyalServers. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html> 
